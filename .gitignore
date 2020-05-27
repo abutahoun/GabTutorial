@@ -435,3 +435,14 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/unity,windows,visualstudio
+Assets/Animations.meta
+
+Assets/Environment.meta
+
+Assets/Player.meta
+
+Assets/Prefabs.meta
+
+Assets/Scripts.meta
+
+Assets/Sprites.meta
