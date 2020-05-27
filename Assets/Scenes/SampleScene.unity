@@ -255,7 +255,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 11.35
+  orthographic size: 10.35
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -295,6 +295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 567543606}
   - component: {fileID: 567543605}
+  - component: {fileID: 567543607}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Untagged
@@ -366,6 +367,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &567543607
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567543604}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ffa281efdfed81a48a0e2f6c9abeed1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &926485848
 GameObject:
   m_ObjectHideFlags: 0
